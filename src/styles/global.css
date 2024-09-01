@@ -1,4 +1,22 @@
-body { 
-  font-family: "Inter", sans-serif; 
+body {
+  font-family: "Inter", sans-serif;
   padding: 0 0.5rem; /* Additional body style */
+  color: var(--grey-600);
+  background: var(--background);
+}
+
+html {
+  --background: white;
+  --grey-200: #222222;
+  --grey-400: #444444;
+  --grey-600: #333333;
+  --grey-900: #111111;
+}
+
+html.dark {
+  --background: black;
+  --grey-200: #eaeaea;
+  --grey-400: #acacac;
+  --grey-600: #ffffff;
+  --grey-900: #fafafa;
 }
