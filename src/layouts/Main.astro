@@ -32,9 +32,6 @@ import "../styles/global.css";
       const LIGHT_THEME = "LIGHT";
       const DARK_THEME = "DARK";
 
-      /** Grab the toggle */
-      const toggle = document.querySelector("button");
-
       /** Grab the document root element. In this case <html>  */
       const rootEl = document.documentElement;
 
@@ -72,6 +69,7 @@ import "../styles/global.css";
   </head>
   <body>
     <main>
+      <button> Donate to charity </button>
       <NavigationBar />
 
       <slot />

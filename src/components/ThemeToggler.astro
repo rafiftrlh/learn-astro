@@ -2,7 +2,7 @@
 
 ---
 
-<button aria-label="Theme toggler">
+<button aria-label="Theme toggler" data-theme-toggle>
   <svg width="25px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path
       class="sun"
@@ -64,7 +64,7 @@
   const DARK_THEME = "DARK";
 
   /** Grab the toggle */
-  const toggle = document.querySelector("button");
+  const toggle = document.querySelector("[data-theme-toggle]");
 
   /** Grab the document root element. In this case <html>  */
   const rootEl = document.documentElement;
